@@ -15,6 +15,7 @@ const countries = [
 function App() {
   const [country, setCountry] = useState("");
   const CountrySelect = (e) => {
+    console.log(e.target.name);
     console.log(e.target.value, countries, countries[e.target.value].cites);
     setCountry(e.target.value)
     console.log("Country:",country);
@@ -25,7 +26,7 @@ function App() {
       <select onChange={CountrySelect}>
         {
           countries.map((item,index) => (
-              <option value={index}>{item.name}</option>
+              <option  name={index + 2} value={index}>{item.name}</option>
           ))
         }
       </select>
