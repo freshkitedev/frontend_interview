@@ -1,5 +1,6 @@
 // Display below country names in dropdown and when a country name 
-// is selected display continent and cites in another dropdown 
+// is selected display continent in a blue box, white text and cites in another dropdown 
+// display should come horizontally in page middle
 const countries = [
   {
     name:"India",

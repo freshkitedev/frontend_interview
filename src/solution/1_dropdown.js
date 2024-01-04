@@ -1,6 +1,7 @@
 // Display below country names in dropdown and when a country name 
 
 import { useState } from "react";
+import "./1_dropdown.css"
 
 // is selected display continent and cites in another dropdown 
 const countries = [
@@ -27,7 +28,7 @@ const countries = [
   }
 
   return (
-    <div>
+    <div id="data">
       <select onChange={CountrySelect}>
         {countries.map((item, index) => (
           <option key={index} name={index + 2} value={index}>
