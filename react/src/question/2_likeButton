@@ -1,0 +1,15 @@
+//create a like button when btn is clicked,it goes into loading state and a request is made
+//if the request was successfully, the button changes to the liked state.
+//otherwise it return to error message form the responses
+//if the user clicks on a liked btn the reverse flow happen.
+
+//Submission API
+//URL -> "https://www.greatfrontend.com/api/questions/like-button"
+//HTTP Method -> "POST"
+//Content Type -> "json"
+
+//Parameters
+//the following fields are accepted in the request body:
+//"action":A string of either "like" or "Unlike" depend upon the action.
+
+//use icon.js from solution file for heart and loading icon 

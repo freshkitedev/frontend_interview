@@ -1,0 +1,39 @@
+.likebtn{
+  border-radius: 10px;
+  border: 3px solid #888;
+  padding: 10px 20px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  gap:8px;
+  cursor: pointer;
+  height: 40px;
+  color: #888;
+  background-color: whitesmoke;
+}
+.likebtn:hover{
+  border-color:  #f00;
+  color:  #f00
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:250px;
+
+}
+
+.likedbtn{
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  gap:8px;
+  cursor: pointer;
+  height: 40px;
+  color:whitesmoke;
+  background-color: #f00;
+}
