@@ -1,0 +1,18 @@
+Requirements:
+
+Create a Progress Bar Component. It should follow the guidelines below:
+• Use React to build the user interface.
+• Display the percentage value in the middle.
+• Green Progress Fill Animation - #00c251
+• Add Accessibility
+• It should be a scalable component
+
+
+Evaluation Criteria: 
+
+• Correct implementation of the the required functionalities.
+Edge Cases Handling
+• Code organization, readability, and adherence to best practices.
+• UI/UX design and responsiveness
+• Quality of code comments and documentation.
+• Overall user experience and error handling.

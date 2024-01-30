@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import  {Dropdown} from "./solution/1_dropdown.js";
+import  {list_delete} from "./solution/2_list_delete.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <Dropdown />
+     <list_delete />
   </React.StrictMode>
 );
 
