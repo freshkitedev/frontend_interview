@@ -1,5 +1,5 @@
 import{HeartIcon,SpinnerIcon} from "./icon"
-import "./likebutton.css"
+import "./Like.css"
 import { useState } from "react";
 
 function App() {
