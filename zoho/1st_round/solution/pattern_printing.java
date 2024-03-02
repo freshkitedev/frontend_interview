@@ -1,20 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-class Bala {
-    private static String name;
-    public String number;
-    
-    Bala() {
-        System.out.println("Bala class");
-    }
-
-    public void print() {
-        //name = "Hero";
-        System.out.println(name + " " + number);
-    }
-}
-
 public class pattern_printing {
 
     static void print_pattern(int size) {
@@ -197,11 +183,44 @@ public class pattern_printing {
         }
     }
 
+    static void print_pattern_11(int n) {
+        for (int r = 1; r <= n; r++) {
+            for(int c = 1; c <=n ; c++) {
+                if (r == c) {
+                    System.out.print(r);
+                } else if (n - r + 1 == c) {
+                    System.out.print(c);
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void print_pattern_12(String str) {
+        int n = str.length();
+        for (int r = 1; r <= n; r++) {
+            for(int c = 1; c <=n ; c++) {
+                if (r == c) {
+                    System.out.print(str.charAt(r - 1));
+                } else if (n - r + 1 == c) {
+                    System.out.print(str.charAt(c - 1));
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the number:");
-        int size = scan.nextInt();
-        System.out.println();
-        print_pattern_8(size);
+        // Scanner scan = new Scanner(System.in);
+        // System.out.print("Enter the number:");
+        // int size = scan.nextInt();
+        // System.out.println();
+        // int n = Integer.parseInt(args[0]);
+        // print_pattern_11(7);
+        print_pattern_12(args[0]);
     }
 }
