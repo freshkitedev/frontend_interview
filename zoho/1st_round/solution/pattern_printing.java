@@ -221,6 +221,6 @@ public class pattern_printing {
         // System.out.println();
         // int n = Integer.parseInt(args[0]);
         // print_pattern_11(7);
-        print_pattern_12(args[0]);
+        print_pattern_1(5);
     }
 }
